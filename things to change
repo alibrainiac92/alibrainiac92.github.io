@@ -1,0 +1,8 @@
+in function for title
+$('#'+val.Plot).prepend(this);
+
+
+
+if (val.plot){
+	$("<p>"+val.Title+"</P>").appendTo("bodylist");
+};

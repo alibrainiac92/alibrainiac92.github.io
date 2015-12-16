@@ -1,0 +1,176 @@
+body{
+	background:url(images/moviePattern.png) repeat;
+}
+
+
+.logo{
+	padding-left:15px;
+	padding-right:15px;
+	margin-top: 5px;
+}
+
+.movieWrap{
+	float: left;
+	color: #cfe3f9;
+	background: none;
+	text-align: left;
+	list-style-type: none;
+	font-size: 14px;
+	line-height: 22px;
+	margin-top: 35px;
+	width: 16%;
+	margin-right: 50px;
+	min-width: 225px;
+}
+
+.movieWrap img{
+	width:100%;
+	max-width:300px;
+	padding-bottom:35px;
+	/*height:100%;*/
+	min-height:381px;
+
+}
+
+#p01{
+	font-size: 23px;
+	color: #cfe3f9;
+	line-height: 26px;
+
+
+}
+
+.title{
+	color: #eef3c7;
+	font-size: 23px;
+
+	
+}
+
+.genre, .rated, .runtime, .year, .plot{
+	color: #eef3c7;
+	font-size: 14px; 
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+
+h1{
+
+color: white;
+background: none;
+text-align: center;
+
+}
+
+#filter-btn{
+	padding-left: 50px;
+	color: white;
+}
+
+
+.navbar{
+	
+	background-color: #404040;
+	border:none;
+	margin-top: -10px;
+}
+
+.navbar-default .navbar-nav li a{
+	color:#cfe3f9;
+	font-family: "Helvetica","Arial" sans-serif;
+	font-size: 15px;
+	padding-left:30px;
+	padding-right:30px;
+
+}
+
+.navbar-default .navbar-nav li a:hover{
+	color:#fdbdbd ;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+
+#eachSelected{
+	color:#fdbdbd ;
+	font-size: 18px;
+	font-weight: bold;
+}
+/*a{
+	letter-spacing:.1px;
+}
+*/
+
+.body-text{
+	color: #ccff33;
+	font-family: "Helvetica","Arial" sans-serif;
+	font-size: 20px;
+	padding-left: 25px;
+}
+
+
+
+
+#wrapper{
+	margin-left: 50px;
+	color: black;
+	
+}
+
+
+#search{
+	margin-left: 50px;
+	color: black;
+	
+}
+
+/*.search{
+	list-style: none;
+	color:white;
+	font-size: 20px;
+	font-family: "Helvetica","Arial" sans-serif;
+}*/
+
+
+/*ul{
+	list-style-type: none;
+	margin-left: -35px;
+	margin-top: 20px;
+	line-height: 10px;
+}
+
+.id{
+	list-style-type: none;
+	margin-left: -35px;
+	margin-top: 20px;
+	line-height: 10px;
+}*/
+
+
+
+/*ul {
+    list-style: none;
+    width:500px;
+}
+li{
+    margin:4px;
+    padding:2px;
+    background:#F9FBF4;
+}
+.addMovie{
+    color:#3EE18B;
+    border: 1px solid #EDEDED;
+}
+.removeMovie {
+    color:#E1626A;
+    text-decoration: line-through;
+    border: 1px dotted #FBD4D2;*/
