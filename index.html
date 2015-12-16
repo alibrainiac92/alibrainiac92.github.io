@@ -1,82 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Whatcha Watchin'?</title>
-	<meta charset="utf-8">
+    <title>Whatcha Watchin'?</title>
+    <meta charset="utf-8">
 
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-  	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  	<script src="bootstrap.js"></script>
-	
-	<link rel="stylesheet" href="home.css" media="screen">
-	<!-- <link rel="stylesheet" href="watch.css" media="screen">
-	<link rel="stylesheet" href="watched.css" media="screen">
-	<link rel="stylesheet" href="rewatch.css" media="screen">
-	<link rel="stylesheet" href="neverAgain.css" media="screen"> -->
-
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+   
+   <link rel="stylesheet" href="home.css" media="screen"> 
+    <link rel="stylesheet" href="watch.css" media="screen">
+    <!-- 
+    <link rel="stylesheet" href="watched.css" media="screen">
+    <link rel="stylesheet" href="rewatch.css" media="screen">
+    <link rel="stylesheet" href="neverAgain.css" media="screen"> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="bootstrap.js"></script>
 </head>
-
 
 <body>
 
-
-	<div id= "container">
+    <div id= "container">
         <div id= "bgd">
             <a class="logo" href="index.html">
                 <img class="img-responsive center-block logo" src="images/movieSiteName.png" /></a>
             
-			
-		</div>
-		<nav class="navbar navbar-default">
-			<div class="container-fluid">
+        </div>
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
 
 
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#movieNavbar">
-						<span class="icon-bar red"></span>
-						<span class="icon-bar black"></span>
-						<span class="icon-bar red"></span>
-					</button>
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#movieNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
 
-				</div>
-
-
-				<div class="collapse navbar-collapse" id="movieNavbar">
-					<ul class="nav navbar-nav ullist">
-						<li><a href="index.html" id="homeSelected">Home</a></li>
-						<li><a href="all.html">All</a></li>
-						<li><a href="watch.html">Watch</a></li>
-						<li><a href="watched.html">Watched</a></li>
-						<li><a href="rewatch.html">ReWatch</a></li>
-						<li><a href="neverAgain.html">Never Again</a></li>
-					</ul>
-				</div>
+                </div>
 
 
-			</div>
-		</nav>
-	</div>
-	<div class="container-fluid">
-					<h2>Enter what you've seen.</h2>
-					<p class="body-text">This site is for all movie buffs (like myself) who have a habit of forgetting the plethora of movie names we've watched and the bookmarks of things we want to watch.</p>
-					
-			
-			
+                <div class="collapse navbar-collapse" id="movieNavbar">
+                    <ul class="nav navbar-nav">
 
-	</div>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="all.html">All</a></li>
+                        <li><a href="watch.html">Watch</a></li>
+                        <li><a href="watched.html">Watched</a></li>
+                        <li><a href="rewatch.html">Rewatch</a></li>
+                        <li><a href="neverAgain.html">Never Again</a></li>
+                    </ul>
+                </div>
 
 
+            </div>
+        </nav>
+    </div>
 
+    
+
+    <!--filter button-->
+    <!-- <div id="filter-btn-container" class="filter">
+                <a id="filter-btn" href="#/filter" data-track="style click filter-btn" class="" style="opacity: 1;">
+                    <span>Filter</span>
+                    
+                </a>
+ -->
+        <div id="search">
+            <form id="addMovie-form">
+                <input type="text" id="title"/>
+                <input type="submit" id="add" value="+"/>
+                <!--<input type="text" id="title"/>
+                 <input type="button" onclick="delete()" value="-"/> -->
+            </form> 
+        </div>
+
+        <div id="wrapper">
+            
+            <div id="bodylist"> 
+            </div>      
+        </div>
+   <script src="style.js">
+    </script>
 </body>
-
 </html>
-
-<!--
-http://www.w3schools.com/jquery/traversing_filter.asp
-
-http://www.drdobbs.com/jvm/real-time-list-filtering-in-html5javascr/240159811
-
-Rich
-
--->
