@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Whatcha Watchin'?</title>
-	<meta charset="utf-8">
+    <title>Whatcha Watchin'?</title>
+    <meta charset="utf-8">
 
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-  	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-	<link rel="stylesheet" href="home.css" media="screen">
-	<link rel="stylesheet" href="watch.css" media="screen">
-	<!-- <link rel="stylesheet" href="watched.css" media="screen">
-	<link rel="stylesheet" href="rewatch.css" media="screen">
-	<link rel="stylesheet" href="neverAgain.css" media="screen"> -->
-  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  	<script src="bootstrap.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="watch.css" media="screen">
+    <!-- 
+    <link rel="stylesheet" href="home.css" media="screen">
+    <link rel="stylesheet" href="watched.css" media="screen">
+    <link rel="stylesheet" href="rewatch.css" media="screen">
+    <link rel="stylesheet" href="neverAgain.css" media="screen"> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="bootstrap.js"></script>
 </head>
 
 <body>
@@ -44,7 +46,7 @@
                         <li><a href="all.html">All</a></li>
                         <li><a href="watch.html">Watch</a></li>
                         <li><a href="watched.html">Watched</a></li>
-                        <li><a href="rewatch.html">ReWatch</a></li>
+                        <li><a href="reWatch.html">ReWatch</a></li>
                         <li><a href="neverAgain.html">Never Again</a></li>
                     </ul>
                 </div>
@@ -56,8 +58,8 @@
 
     
 
-	<!--filter button-->
-	<!-- <div id="filter-btn-container" class="filter">
+    <!--filter button-->
+    <!-- <div id="filter-btn-container" class="filter">
                 <a id="filter-btn" href="#/filter" data-track="style click filter-btn" class="" style="opacity: 1;">
                     <span>Filter</span>
                     
@@ -72,31 +74,12 @@
             </form> 
         </div>
 
-    	<div id="wrapper">
+        <div id="wrapper">
             
             <div id="bodylist"> 
-            </div>   	
-    	</div>
+            </div>      
+        </div>
    <script src="style.js">
     </script>
-
-
-
-
-
-    <!--
-    function removeLSItem(movie) {
-            var m = JSON.parse(localStorage.getItem('movies'));
-            // delete element here
-            localStorage.setItem('movies', JSON.stringify(m));
-        }
-         function removeLSItem(movieTitle) {
-            var m = JSON.parse(localStorage.getItem('movies'));
-            var filteredMovies = _.reject(m,function(obj){
-           return obj.Title == movieTitle; // _. is the same as $. -- it's just using the underscore library instead of the jquery library 
-      });
-            localStorage.setItem('movies', JSON.stringify(filteredMovies));
-        }
-    --!>
 </body>
 </html>
