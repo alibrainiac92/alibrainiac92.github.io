@@ -62,6 +62,9 @@ body{
   text-align: center;
 }
 
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header{
+	background-color: black;
+}
 
 h1{
 
