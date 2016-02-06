@@ -39,12 +39,6 @@ list-style-type: none;
 	margin-top: -10px;
 }
 
-.navbar{
-	
-	background-color: #404040;
-	border:none;
-	margin-top: -10px;
-}
 
 .navbar-default .navbar-nav li a{
 	color:#cfe3f9;
@@ -60,6 +54,10 @@ list-style-type: none;
 	color:#fdbdbd ;
 	font-size: 18px;
 	font-weight: bold;
+}
+
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header{
+	background-color: black;
 }
 
 #homeSelected{
